@@ -7,7 +7,7 @@ common_list = read.new_list
 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 x_spot = []
 o_spot = []
-word = random.choice(common_list)
+word = "super" #random.choice(common_list)
 
 
 
@@ -16,7 +16,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 
 def homepage():
-    if request.method == 'POST':     
+    if request.method == 'POST':   
         if request.form['gradegpa'] == 'Tic-Tac-Toe':
             return redirect('/spot1', code=302)
         if request.form['gradegpa'] == 'Wordle':
@@ -777,7 +777,7 @@ def fifth():
 @app.route('/sixth', methods=['GET', 'POST'])
 def sixth():
     if request.form['submit'] == 'back':
-            return redirect('/')
+        return redirect('/')
     if request.method == 'POST':
         global letter61
         global letter62
@@ -1038,6 +1038,8 @@ def winnings():
 
 def spot1():
     if request.method == 'POST':
+        if request.form['spot'] == 'back':
+            return redirect('/')
         global x_spot
         global choice
         global ailist
@@ -1065,6 +1067,8 @@ def spot2():
 
 def spot3():
     if request.method == 'POST':
+        if request.form['spot'] == 'back':
+            return redirect('/')
         global x_spot
         global choice3
         global ailist
@@ -1090,6 +1094,8 @@ def spot4():
 
 def spot5():
     if request.method == 'POST':
+        if request.form['spot'] == 'back':
+            return redirect('/')
         global choice5
         global ailist
         global x_spot
@@ -1216,6 +1222,8 @@ def spot7():
         w = 7
         return redirect('/gamestop', code=302)
     if request.method == 'POST':
+        if request.form['spot'] == 'back':
+            return redirect('/')
         global choice7
         global ailist
         choice7 = int(request.form['spot'])
@@ -1373,6 +1381,8 @@ def spot9():
         w = 9
         return redirect('/gamestop', code=302)
     if request.method == 'POST':
+        if request.form['spot'] == 'back':
+            return redirect('/')
         global choice9
         global ailist
         choice9 = int(request.form['spot'])
@@ -1466,6 +1476,8 @@ def w():
     if w == 6:
         if request.method == 'POST':
             if request.form['spot'] == 'New Game':
+                if request.form['spot'] == 'back':
+                    return redirect('/')
                 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
                 x_spot = []
                 o_spot = []
@@ -1474,6 +1486,8 @@ def w():
     if w == 7:
         if request.method == 'POST':
             if request.form['spot'] == 'New Game':
+                if request.form['spot'] == 'back':
+                    return redirect('/')
                 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
                 x_spot = []
                 o_spot = []
@@ -1482,6 +1496,8 @@ def w():
     if w == 8:
         if request.method == 'POST':
             if request.form['spot'] == 'New Game':
+                if request.form['spot'] == 'back':
+                    return redirect('/')
                 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
                 x_spot = []
                 o_spot = []
@@ -1490,6 +1506,8 @@ def w():
     if w == 9:
         if request.method == 'POST':
             if request.form['spot'] == 'New Game':
+                if request.form['spot'] == 'back':
+                    return redirect('/')
                 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
                 x_spot = []
                 o_spot = []
@@ -1499,6 +1517,8 @@ def w():
     if w == 10:
         if request.method == 'POST':
             if request.form['spot'] == 'New Game':
+                if request.form['spot'] == 'back':
+                    return redirect('/')
                 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
                 x_spot = []
                 o_spot = []
