@@ -1,0 +1,122 @@
+.box1{
+    width:66px;
+    height:66px;
+    transform: translate(500px, 200px);
+}
+
+.box2{
+    width:66px;
+    height:66px;
+    transform: translate(580px, 130px);
+}
+
+.box3{
+    width:66px;
+    height:66px;
+    transform: translate(660px, 60px);
+}
+
+.box4{
+    width:66px;
+    height:66px;
+    transform: translate(740px, -10px);
+}
+
+.box5{
+    width:66px;
+    height:66px;
+    transform: translate(820px, -80px);
+}
+
+#second{
+    transform: translate(0px, -270px);
+}
+
+#third{
+    transform: translate(0px, -540px); 
+}
+
+#fourth{
+    transform: translate(0px, -810px);
+}
+
+#fifth{
+    transform: translate(0px, -1080px);
+}
+
+#sixth{
+    transform: translate(0px, -1350px);
+}
+
+
+.text1{
+
+    font-size: 30px;
+    width:30px;
+    height:50px;
+    background-color: transparent;
+    border-color:transparent;
+    transform: translate(519px, -1872px);
+    text-transform:uppercase;
+
+}
+
+.text2{
+    font-size: 30px;
+    width:30px;
+    height:50px;
+    background-color: transparent;
+    border-color:transparent;
+    text-transform:uppercase;
+    transform: translate(559px, -1872px);
+
+}
+
+.text3{
+    font-size: 30px;
+    width:30px;
+    height:50px;
+    background-color: transparent;
+    border-color:transparent;
+    text-transform:uppercase;
+    transform: translate(599px, -1872px);
+}
+
+.text4{
+    font-size: 30px;
+    width:30px;
+    height:50px;
+    text-transform:uppercase;
+    background-color: transparent;
+    border-color:transparent;
+    transform: translate(639px, -1872px);
+}
+
+.text5{
+    font-size: 30px;
+    width:30px;
+    height:50px;
+    text-transform:uppercase;
+    background-color: transparent;
+    border-color:transparent;
+    transform: translate(679px, -1872px);
+}
+
+#submit{
+    width:400px;
+    height:50px;
+    transform: translate(500px, -1450px);
+}
+
+#back{
+    width:80px;
+    transform: translate(-200px, -2150px);
+}
+
+#whole{
+    transform: translate(0px, -10px);
+}
+
+#letterrow3{
+    transform: translate(0px, 10px);
+}

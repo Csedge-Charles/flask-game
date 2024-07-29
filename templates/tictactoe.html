@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles/tictactoe.css">
+</head>
+<body>
+    <div id="board" style="transform: translate(200px);">
+        <div id="straight1">
+
+        </div>
+    
+        <div id="straight2">
+            
+        </div>
+    
+        <div id="horizontal1">
+            
+        </div>
+    
+        <div id="horizontal2">
+            
+        </div>
+
+    </div>
+
+    <form action="{{ url }}" method="POST">
+        {% if choice == 1 or choice3 == 1 or choice5 == 1 or  choice7 == 1 or choice9 == 1 %}
+        <input type="submit" name="spot" value="X" id="select1" style="color:black">
+        {% elif choice2 == 1 or choice4 == 1 or choice6 == 1 or choice8 == 1%}
+        <input type="submit" name="spot" value="O" id="select1" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="1" id="spot1" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 2 or choice3 == 2 or choice5 == 2 or  choice7 == 2 or choice9 == 2 %}
+        <input type="submit" name="spot" value='X' id="select2" style="color:black">
+        {% elif choice2 == 2 or choice4 == 2 or choice6 == 2 or choice8 == 2 %}
+        <input type="submit" name="spot" value='O' id="select2" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="2" id="spot2" style="color:transparent">
+        {% endif %}
+
+        {% if choice == 3 or choice3 == 3 or choice5 == 3 or  choice7 == 3 or choice9 == 3 %}
+        <input type="submit" name="spot" value="X" id="select3" style="color:black">
+        {% elif choice2 == 3 or choice4 == 3 or choice6 == 3 or choice8 == 3 %}
+        <input type="submit" name="spot" value="O" id="select3" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="3" id="spot3" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 4 or choice3 == 4 or choice5 == 4 or  choice7 == 4 or choice9 == 4 %}
+        <input type="submit" name="spot" value="X" id="select4" style="color:black">
+        {% elif choice2 == 4 or choice4 == 4 or choice6 == 4 or choice8 == 4%}
+        <input type="submit" name="spot" value="O" id="select4" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="4" id="spot4" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 5 or choice3 == 5 or choice5 == 5 or  choice7 == 5 or choice9 == 5 %}
+        <input type="submit" name="spot" value="X" id="select5" style="color:black">
+        {% elif choice2 == 5 or choice4 == 5 or choice6 == 5 or choice8 == 5%}
+        <input type="submit" name="spot" value="O" id="select5" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="5" id="spot5" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 6 or choice3 == 6 or choice5 == 6 or  choice7 == 6 or choice9 == 6 %}
+        <input type="submit" name="spot" value="X" id="select6" style="color:black">
+        {% elif choice2 == 6 or choice4 == 6 or choice6 == 6 or choice8 == 6%}
+        <input type="submit" name="spot" value="O" id="select6" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="6" id="spot6" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 7 or choice3 == 7 or choice5 == 7 or  choice7 == 7 or choice9 == 7 %}
+        <input type="submit" name="spot" value="X" id="select7" style="color:black">
+        {% elif choice2 == 7 or choice4 == 7 or choice6 == 7 or choice8 == 7%}
+        <input type="submit" name="spot" value="O" id="select7" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="7" id="spot7" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 8 or choice3 == 8 or choice5 == 8 or  choice7 == 8 or choice9 == 8 %}
+        <input type="submit" name="spot" value="X" id="select8" style="color:black">
+        {% elif choice2 == 8 or choice4 == 8 or choice6 == 8 or choice8 == 8%}
+        <input type="submit" name="spot" value="O" id="select8" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="8" id="spot8" style="color:transparent">     
+        {% endif %}
+
+        {% if choice == 9 or choice3 == 9 or choice5 == 9 or  choice7 == 9 or choice9 == 9 %}
+        <input type="submit" name="spot" value="X" id="select9" style="color:black">
+        {% elif choice2 == 9 or choice4 == 9 or choice6 == 9 or choice8 == 9%}
+        <input type="submit" name="spot" value="O" id="select9" style="color:black">
+        {% else %}
+        <input type="submit" name="spot" value="9" id="spot9" style="color:transparent">     
+        {% endif %}
+
+        {% if submit == True %}
+        <input type="submit" name="spot" id="submit" value="New Game" style="height:20px; width: 120px; font-size: 15px; transform: translate(-480px, -200px);">
+        {% endif %}
+
+        <p id="determine" style="transform: translate(650px, -900px);">{{ win }}</p>
+    </form>
+    
+
+    
+</body>
+</html>

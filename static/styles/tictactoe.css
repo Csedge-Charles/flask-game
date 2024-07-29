@@ -1,0 +1,265 @@
+#straight1{
+    background-color:black;
+    height:400px;
+    width:2px;
+    transform: translate(465px, 200px);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#straight2{
+    background-color:black;
+    height:400px;
+    width:2px;
+    transform: translate(600px, -200px);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#horizontal1{
+    background-color:black;
+    height:2px;
+    width:400px;
+    transform: translate(336px, -470px);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#horizontal2{
+    background-color:black;
+    height:2px;
+    width:400px;
+    transform: translate(336px, -346px);
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#spot1{
+    height:125px;
+    width: 125px;
+    transform: translate(539px, -600px);
+    font-size: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot2{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(543px, -600px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot3{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(546px, -600px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot4{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(152px, -472px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot5{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(156px, -472px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot6{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(160px, -472px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot7{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(-235px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#spot8{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(-231px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+#spot9{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(-227px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+#select1{
+    height:125px;
+    width: 125px;
+    transform: translate(539px, -600px);
+    font-size: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-style:bold;
+}
+
+#select2{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(543px, -600px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-style:bold;
+}
+
+#select3{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(546px, -600px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-style:bold;
+}
+
+#select4{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(152px, -472px);
+    background-color: transparent;
+    border-color: transparent;
+    font-style:bold;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#select5{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(156px, -472px);
+    background-color: transparent;
+    font-style:bold;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#select6{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(160px, -472px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    font-style:bold;
+    animation-iteration-count: infinite;
+}
+
+#select7{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    font-style:bold;
+    transform: translate(-235px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#select8{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    transform: translate(-231px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+#select9{
+    height:125px;
+    width: 125px;
+    font-size: 50px;
+    font-style:bold;
+    transform: translate(-227px, -344px);
+    background-color: transparent;
+    border-color: transparent;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#spot1:hover, #spot2:hover, #spot3:hover, #spot4:hover, #spot5:hover, #spot6:hover, #spot7:hover, #spot8:hover, #spot9:hover{
+    border-color: rgb(0, 85, 255);
+    background-color: rgb(138, 192, 242);
+}
+
+#determine{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: rgb(191, 0, 255);}
+    50%  {color: blue;}
+    100% {color: orange;}
+}
+
+@keyframes example2 {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(191, 0, 255);}
+    50%  {background-color: blue;}
+    100% {background-color: orange;}
+}
