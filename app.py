@@ -1057,6 +1057,109 @@ def spot2():
     global o_spot
     global choice2
     choice2 = random.choice(ailist)
+    if (1 in x_spot and 2 in x_spot and 3 in ailist):
+        choice2 = 3
+    if (1 in x_spot and 3 in x_spot and 2 in ailist):
+        choice2 = 2
+    if (2 in x_spot and 3 in x_spot and 1 in ailist): 
+        choice2 = 1
+    if (4 in x_spot and 5 in x_spot and 6 in ailist):
+        choice2 = 6
+    if (4 in x_spot and 6 in x_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in x_spot and 6 in x_spot and 4 in ailist): 
+        choice2 = 4
+    if (7 in x_spot and 8 in x_spot and 9 in ailist):
+        choice2 = 9
+    if (7 in x_spot and 9 in x_spot and 8 in ailist):
+        choice2 = 8
+    if (8 in x_spot and 9 in x_spot and 7 in ailist): 
+        choice2 = 7
+    if (1 in x_spot and 4 in x_spot and 7 in ailist):
+        choice2 = 7
+    if (1 in x_spot and 7 in x_spot and 4 in ailist):
+        choice2 = 4
+    if (7 in x_spot and 4 in x_spot and 1 in ailist): 
+        choice2 = 1
+    if (2 in x_spot and 5 in x_spot and 8 in ailist):
+        choice2 = 8
+    if (2 in x_spot and 8 in x_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in x_spot and 8 in x_spot and 2 in ailist): 
+        choice2 = 2
+    if (3 in x_spot and 6 in x_spot and 9 in ailist):
+        choice2 = 9
+    if (3 in x_spot and 9 in x_spot and 6 in ailist):
+        choice2 = 6
+    if (6 in x_spot and 9 in x_spot and 3 in ailist): 
+        choice2 = 3
+    if (1 in x_spot and 5 in x_spot and 9 in ailist):
+        choice2 = 9
+    if (1 in x_spot and 9 in x_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in x_spot and 9 in x_spot and 1 in ailist): 
+        choice2 = 1
+    if (3 in x_spot and 5 in x_spot and 7 in ailist):
+        choice2 = 7
+    if (3 in x_spot and 7 in x_spot and 5 in ailist):
+        choice2 = 5
+    if (7 in x_spot and 5 in x_spot and 3 in ailist): 
+        choice2 = 3
+    
+    
+    if (1 in o_spot and 2 in o_spot and 3 in ailist):
+        choice2 = 3
+    if (1 in o_spot and 3 in o_spot and 2 in ailist):
+        choice2 = 2
+    if (2 in o_spot and 3 in o_spot and 1 in ailist): 
+        choice2 = 1
+    if (4 in o_spot and 5 in o_spot and 6 in ailist):
+        choice2 = 6
+    if (4 in o_spot and 6 in o_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in o_spot and 6 in o_spot and 4 in ailist): 
+        choice2 = 4
+    if (7 in o_spot and 8 in o_spot and 9 in ailist):
+        choice2 = 9
+    if (7 in o_spot and 9 in o_spot and 8 in ailist):
+        choice2 = 8
+    if (8 in o_spot and 9 in o_spot and 7 in ailist): 
+        choice2 = 7
+    if (1 in o_spot and 4 in o_spot and 7 in ailist):
+        choice2 = 7
+    if (1 in o_spot and 7 in o_spot and 4 in ailist):
+        choice2 = 4
+    if (7 in o_spot and 4 in o_spot and 1 in ailist): 
+        choice2 = 1
+    if (2 in o_spot and 5 in o_spot and 8 in ailist):
+        choice2 = 8
+    if (2 in o_spot and 8 in o_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in o_spot and 8 in o_spot and 2 in ailist): 
+        choice2 = 2
+    if (3 in o_spot and 6 in o_spot and 9 in ailist):
+        choice2 = 9
+    if (3 in o_spot and 9 in o_spot and 6 in ailist):
+        choice2 = 6
+    if (6 in o_spot and 9 in o_spot and 3 in ailist): 
+        choice2 = 3
+    if (1 in o_spot and 5 in o_spot and 9 in ailist):
+        choice2 = 9
+    if (1 in o_spot and 9 in o_spot and 5 in ailist):
+        choice2 = 5
+    if (5 in o_spot and 9 in o_spot and 1 in ailist): 
+        choice2 = 1
+    if (3 in o_spot and 5 in o_spot and 7 in ailist):
+        choice2 = 7
+    if (3 in o_spot and 7 in o_spot and 5 in ailist):
+        choice2 = 5
+    if (7 in o_spot and 5 in o_spot and 3 in ailist): 
+        choice2 = 3
+ 
+    
+    
+    
+    
     ailist.remove(choice2)
     o_spot.append(choice2)
     return redirect('/spot3', code=302)
@@ -1086,6 +1189,104 @@ def spot4():
     global o_spot
     global choice4
     choice4 = random.choice(ailist)
+    if (1 in x_spot and 2 in x_spot and 3 in ailist):
+        choice4 = 3
+    if (1 in x_spot and 3 in x_spot and 2 in ailist):
+        choice4 = 2
+    if (2 in x_spot and 3 in x_spot and 1 in ailist): 
+        choice4 = 1
+    if (4 in x_spot and 5 in x_spot and 6 in ailist):
+        choice4 = 6
+    if (4 in x_spot and 6 in x_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in x_spot and 6 in x_spot and 4 in ailist): 
+        choice4 = 4
+    if (7 in x_spot and 8 in x_spot and 9 in ailist):
+        choice4 = 9
+    if (7 in x_spot and 9 in x_spot and 8 in ailist):
+        choice4 = 8
+    if (8 in x_spot and 9 in x_spot and 7 in ailist): 
+        choice4 = 7
+    if (1 in x_spot and 4 in x_spot and 7 in ailist):
+        choice4 = 7
+    if (1 in x_spot and 7 in x_spot and 4 in ailist):
+        choice4 = 4
+    if (7 in x_spot and 4 in x_spot and 1 in ailist): 
+        choice4 = 1
+    if (2 in x_spot and 5 in x_spot and 8 in ailist):
+        choice4 = 8
+    if (2 in x_spot and 8 in x_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in x_spot and 8 in x_spot and 2 in ailist): 
+        choice4 = 2
+    if (3 in x_spot and 6 in x_spot and 9 in ailist):
+        choice4 = 9
+    if (3 in x_spot and 9 in x_spot and 6 in ailist):
+        choice4 = 6
+    if (6 in x_spot and 9 in x_spot and 3 in ailist): 
+        choice4 = 3
+    if (1 in x_spot and 5 in x_spot and 9 in ailist):
+        choice4 = 9
+    if (1 in x_spot and 9 in x_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in x_spot and 9 in x_spot and 1 in ailist): 
+        choice4 = 1
+    if (3 in x_spot and 5 in x_spot and 7 in ailist):
+        choice4 = 7
+    if (3 in x_spot and 7 in x_spot and 5 in ailist):
+        choice4 = 5
+    if (7 in x_spot and 5 in x_spot and 3 in ailist): 
+        choice4 = 3
+    
+    
+    if (1 in o_spot and 2 in o_spot and 3 in ailist):
+        choice4 = 3
+    if (1 in o_spot and 3 in o_spot and 2 in ailist):
+        choice4 = 2
+    if (2 in o_spot and 3 in o_spot and 1 in ailist): 
+        choice4 = 1
+    if (4 in o_spot and 5 in o_spot and 6 in ailist):
+        choice4 = 6
+    if (4 in o_spot and 6 in o_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in o_spot and 6 in o_spot and 4 in ailist): 
+        choice4 = 4
+    if (7 in o_spot and 8 in o_spot and 9 in ailist):
+        choice4 = 9
+    if (7 in o_spot and 9 in o_spot and 8 in ailist):
+        choice4 = 8
+    if (8 in o_spot and 9 in o_spot and 7 in ailist): 
+        choice4 = 7
+    if (1 in o_spot and 4 in o_spot and 7 in ailist):
+        choice4 = 7
+    if (1 in o_spot and 7 in o_spot and 4 in ailist):
+        choice4 = 4
+    if (7 in o_spot and 4 in o_spot and 1 in ailist): 
+        choice4 = 1
+    if (2 in o_spot and 5 in o_spot and 8 in ailist):
+        choice4 = 8
+    if (2 in o_spot and 8 in o_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in o_spot and 8 in o_spot and 2 in ailist): 
+        choice4 = 2
+    if (3 in o_spot and 6 in o_spot and 9 in ailist):
+        choice4 = 9
+    if (3 in o_spot and 9 in o_spot and 6 in ailist):
+        choice4 = 6
+    if (6 in o_spot and 9 in o_spot and 3 in ailist): 
+        choice4 = 3
+    if (1 in o_spot and 5 in o_spot and 9 in ailist):
+        choice4 = 9
+    if (1 in o_spot and 9 in o_spot and 5 in ailist):
+        choice4 = 5
+    if (5 in o_spot and 9 in o_spot and 1 in ailist): 
+        choice4 = 1
+    if (3 in o_spot and 5 in o_spot and 7 in ailist):
+        choice4 = 7
+    if (3 in o_spot and 7 in o_spot and 5 in ailist):
+        choice4 = 5
+    if (7 in o_spot and 5 in o_spot and 3 in ailist): 
+        choice4 = 3
     ailist.remove(choice4)
     o_spot.append(choice4)
     return redirect('/spot5', code=302)
@@ -1147,6 +1348,104 @@ def spot6():
     global o_spot
     global choice6
     choice6 = random.choice(ailist)
+    if (1 in x_spot and 2 in x_spot and 3 in ailist):
+        choice6 = 3
+    if (1 in x_spot and 3 in x_spot and 2 in ailist):
+        choice6 = 2
+    if (2 in x_spot and 3 in x_spot and 1 in ailist): 
+        choice6 = 1
+    if (4 in x_spot and 5 in x_spot and 6 in ailist):
+        choice6 = 6
+    if (4 in x_spot and 6 in x_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in x_spot and 6 in x_spot and 4 in ailist): 
+        choice6 = 4
+    if (7 in x_spot and 8 in x_spot and 9 in ailist):
+        choice6 = 9
+    if (7 in x_spot and 9 in x_spot and 8 in ailist):
+        choice6 = 8
+    if (8 in x_spot and 9 in x_spot and 7 in ailist): 
+        choice6 = 7
+    if (1 in x_spot and 4 in x_spot and 7 in ailist):
+        choice6 = 7
+    if (1 in x_spot and 7 in x_spot and 4 in ailist):
+        choice6 = 4
+    if (7 in x_spot and 4 in x_spot and 1 in ailist): 
+        choice6 = 1
+    if (2 in x_spot and 5 in x_spot and 8 in ailist):
+        choice6 = 8
+    if (2 in x_spot and 8 in x_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in x_spot and 8 in x_spot and 2 in ailist): 
+        choice6 = 2
+    if (3 in x_spot and 6 in x_spot and 9 in ailist):
+        choice6 = 9
+    if (3 in x_spot and 9 in x_spot and 6 in ailist):
+        choice6 = 6
+    if (6 in x_spot and 9 in x_spot and 3 in ailist): 
+        choice6 = 3
+    if (1 in x_spot and 5 in x_spot and 9 in ailist):
+        choice6 = 9
+    if (1 in x_spot and 9 in x_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in x_spot and 9 in x_spot and 1 in ailist): 
+        choice6 = 1
+    if (3 in x_spot and 5 in x_spot and 7 in ailist):
+        choice6 = 7
+    if (3 in x_spot and 7 in x_spot and 5 in ailist):
+        choice6 = 5
+    if (7 in x_spot and 5 in x_spot and 3 in ailist): 
+        choice6 = 3
+    
+    
+    if (1 in o_spot and 2 in o_spot and 3 in ailist):
+        choice6 = 3
+    if (1 in o_spot and 3 in o_spot and 2 in ailist):
+        choice6 = 2
+    if (2 in o_spot and 3 in o_spot and 1 in ailist): 
+        choice6 = 1
+    if (4 in o_spot and 5 in o_spot and 6 in ailist):
+        choice6 = 6
+    if (4 in o_spot and 6 in o_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in o_spot and 6 in o_spot and 4 in ailist): 
+        choice6 = 4
+    if (7 in o_spot and 8 in o_spot and 9 in ailist):
+        choice6 = 9
+    if (7 in o_spot and 9 in o_spot and 8 in ailist):
+        choice6 = 8
+    if (8 in o_spot and 9 in o_spot and 7 in ailist): 
+        choice6 = 7
+    if (1 in o_spot and 4 in o_spot and 7 in ailist):
+        choice6 = 7
+    if (1 in o_spot and 7 in o_spot and 4 in ailist):
+        choice6 = 4
+    if (7 in o_spot and 4 in o_spot and 1 in ailist): 
+        choice6 = 1
+    if (2 in o_spot and 5 in o_spot and 8 in ailist):
+        choice6 = 8
+    if (2 in o_spot and 8 in o_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in o_spot and 8 in o_spot and 2 in ailist): 
+        choice6 = 2
+    if (3 in o_spot and 6 in o_spot and 9 in ailist):
+        choice6 = 9
+    if (3 in o_spot and 9 in o_spot and 6 in ailist):
+        choice6 = 6
+    if (6 in o_spot and 9 in o_spot and 3 in ailist): 
+        choice6 = 3
+    if (1 in o_spot and 5 in o_spot and 9 in ailist):
+        choice6 = 9
+    if (1 in o_spot and 9 in o_spot and 5 in ailist):
+        choice6 = 5
+    if (5 in o_spot and 9 in o_spot and 1 in ailist): 
+        choice6 = 1
+    if (3 in o_spot and 5 in o_spot and 7 in ailist):
+        choice6 = 7
+    if (3 in o_spot and 7 in o_spot and 5 in ailist):
+        choice6 = 5
+    if (7 in o_spot and 5 in o_spot and 3 in ailist): 
+        choice6 = 3
     ailist.remove(choice6)
     o_spot.append(choice6)
     return redirect('/spot7', code=302)
@@ -1306,6 +1605,104 @@ def spot8():
         return redirect('/gamestop', code=302)
     global choice8
     choice8 = random.choice(ailist)
+    if (1 in x_spot and 2 in x_spot and 3 in ailist):
+        choice8 = 3
+    if (1 in x_spot and 3 in x_spot and 2 in ailist):
+        choice8 = 2
+    if (2 in x_spot and 3 in x_spot and 1 in ailist): 
+        choice8 = 1
+    if (4 in x_spot and 5 in x_spot and 6 in ailist):
+        choice8 = 6
+    if (4 in x_spot and 6 in x_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in x_spot and 6 in x_spot and 4 in ailist): 
+        choice8 = 4
+    if (7 in x_spot and 8 in x_spot and 9 in ailist):
+        choice8 = 9
+    if (7 in x_spot and 9 in x_spot and 8 in ailist):
+        choice8 = 8
+    if (8 in x_spot and 9 in x_spot and 7 in ailist): 
+        choice8 = 7
+    if (1 in x_spot and 4 in x_spot and 7 in ailist):
+        choice8 = 7
+    if (1 in x_spot and 7 in x_spot and 4 in ailist):
+        choice8 = 4
+    if (7 in x_spot and 4 in x_spot and 1 in ailist): 
+        choice8 = 1
+    if (2 in x_spot and 5 in x_spot and 8 in ailist):
+        choice8 = 8
+    if (2 in x_spot and 8 in x_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in x_spot and 8 in x_spot and 2 in ailist): 
+        choice8 = 2
+    if (3 in x_spot and 6 in x_spot and 9 in ailist):
+        choice8 = 9
+    if (3 in x_spot and 9 in x_spot and 6 in ailist):
+        choice8 = 6
+    if (6 in x_spot and 9 in x_spot and 3 in ailist): 
+        choice8 = 3
+    if (1 in x_spot and 5 in x_spot and 9 in ailist):
+        choice8 = 9
+    if (1 in x_spot and 9 in x_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in x_spot and 9 in x_spot and 1 in ailist): 
+        choice8 = 1
+    if (3 in x_spot and 5 in x_spot and 7 in ailist):
+        choice8 = 7
+    if (3 in x_spot and 7 in x_spot and 5 in ailist):
+        choice8 = 5
+    if (7 in x_spot and 5 in x_spot and 3 in ailist): 
+        choice8 = 3
+    
+    
+    if (1 in o_spot and 2 in o_spot and 3 in ailist):
+        choice8 = 3
+    if (1 in o_spot and 3 in o_spot and 2 in ailist):
+        choice8 = 2
+    if (2 in o_spot and 3 in o_spot and 1 in ailist): 
+        choice8 = 1
+    if (4 in o_spot and 5 in o_spot and 6 in ailist):
+        choice8 = 6
+    if (4 in o_spot and 6 in o_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in o_spot and 6 in o_spot and 4 in ailist): 
+        choice8 = 4
+    if (7 in o_spot and 8 in o_spot and 9 in ailist):
+        choice8 = 9
+    if (7 in o_spot and 9 in o_spot and 8 in ailist):
+        choice8 = 8
+    if (8 in o_spot and 9 in o_spot and 7 in ailist): 
+        choice8 = 7
+    if (1 in o_spot and 4 in o_spot and 7 in ailist):
+        choice8 = 7
+    if (1 in o_spot and 7 in o_spot and 4 in ailist):
+        choice8 = 4
+    if (7 in o_spot and 4 in o_spot and 1 in ailist): 
+        choice8 = 1
+    if (2 in o_spot and 5 in o_spot and 8 in ailist):
+        choice8 = 8
+    if (2 in o_spot and 8 in o_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in o_spot and 8 in o_spot and 2 in ailist): 
+        choice8 = 2
+    if (3 in o_spot and 6 in o_spot and 9 in ailist):
+        choice8 = 9
+    if (3 in o_spot and 9 in o_spot and 6 in ailist):
+        choice8 = 6
+    if (6 in o_spot and 9 in o_spot and 3 in ailist): 
+        choice8 = 3
+    if (1 in o_spot and 5 in o_spot and 9 in ailist):
+        choice8 = 9
+    if (1 in o_spot and 9 in o_spot and 5 in ailist):
+        choice8 = 5
+    if (5 in o_spot and 9 in o_spot and 1 in ailist): 
+        choice8 = 1
+    if (3 in o_spot and 5 in o_spot and 7 in ailist):
+        choice8 = 7
+    if (3 in o_spot and 7 in o_spot and 5 in ailist):
+        choice8 = 5
+    if (7 in o_spot and 5 in o_spot and 3 in ailist): 
+        choice8 = 3
     ailist.remove(choice8)
     o_spot.append(choice8)
     return redirect('/spot9', code=302)
