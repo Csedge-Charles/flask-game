@@ -776,9 +776,9 @@ def fifth():
 
 @app.route('/sixth', methods=['GET', 'POST'])
 def sixth():
-    if request.form['submit'] == 'back':
-        return redirect('/')
     if request.method == 'POST':
+        if request.form['submit'] == 'back':
+            return redirect('/')
         global letter61
         global letter62
         global letter63
