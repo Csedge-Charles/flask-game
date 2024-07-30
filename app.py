@@ -1194,6 +1194,14 @@ def spot4():
     global o_spot
     global choice4
     choice4 = random.choice(ailist)
+    if 1 in x_spot and 5 in x_spot and 9 in o_spot:
+        choice4 = 3
+    if 9 in x_spot and 5 in x_spot and 1 in o_spot:
+        choice4 = 7
+    if 3 in x_spot and 5 in x_spot and 7 in o_spot:
+        choice4 = 1
+    if 7 in x_spot and 5 in x_spot and 3 in o_spot:
+        choice4 = 9
     if (1 in x_spot and 2 in x_spot and 3 in ailist):
         choice4 = 3
     if (1 in x_spot and 3 in x_spot and 2 in ailist):
