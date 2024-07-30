@@ -1155,6 +1155,11 @@ def spot2():
         choice2 = 5
     if (7 in o_spot and 5 in o_spot and 3 in ailist): 
         choice2 = 3
+    
+    if choice == 5:
+        choice2 = random.choice([1, 3, 7, 9])
+    if choice == 1 or choice == 3 or choice == 7 or choice == 9:
+        choice2 = 5
  
     
     
