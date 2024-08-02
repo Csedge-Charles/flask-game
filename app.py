@@ -7,7 +7,7 @@ common_list = read.new_list
 ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 x_spot = []
 o_spot = []
-word = "feral" #random.choice(common_list)
+word = random.choice(common_list)
 
 
 
