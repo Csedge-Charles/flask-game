@@ -1037,12 +1037,17 @@ def winnings():
 
 
 def spot1():
+    global x_spot
+    global choice
+    global ailist
+    global o_spot
     if request.method == 'POST':
         if request.form['spot'] == 'back':
+            ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x_spot = []
+            o_spot = []
             return redirect('/')
-        global x_spot
-        global choice
-        global ailist
+        
         choice = int(request.form['spot'])
         ailist.remove(choice)
         x_spot.append(choice)
@@ -1175,11 +1180,15 @@ def spot2():
 
 def spot3():
     if request.method == 'POST':
-        if request.form['spot'] == 'back':
-            return redirect('/')
         global x_spot
         global choice3
         global ailist
+        global o_spot
+        if request.form['spot'] == 'back':
+            ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x_spot = []
+            o_spot = []
+            return redirect('/')
         choice3 = int(request.form['spot'])
         ailist.remove(choice3)
         x_spot.append(choice3)
@@ -1308,11 +1317,15 @@ def spot4():
 
 def spot5():
     if request.method == 'POST':
-        if request.form['spot'] == 'back':
-            return redirect('/')
         global choice5
         global ailist
         global x_spot
+        global o_spot
+        if request.form['spot'] == 'back':
+            ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x_spot = []
+            o_spot = []
+            return redirect('/')
         choice5 = int(request.form['spot'])
         x_spot.append(choice5)
         ailist.remove(choice5)
@@ -1324,6 +1337,8 @@ def spot5():
 def spot6():
     global x_spot
     global w
+    global o_spot
+    global choice
     global win
     if 1 in x_spot and 2 in x_spot and 3 in x_spot:
         win = 'You Win!'
@@ -1467,7 +1482,10 @@ def spot6():
 
 def spot7():
     global w
+    global choice
+    global o_spot
     global win
+    global x_spot
     if 1 in x_spot and 2 in x_spot and 3 in x_spot:
         win = 'You Win!'
         w = 7
@@ -1534,10 +1552,13 @@ def spot7():
         w = 7
         return redirect('/gamestop', code=302)
     if request.method == 'POST':
-        if request.form['spot'] == 'back':
-            return redirect('/')
         global choice7
         global ailist
+        if request.form['spot'] == 'back':
+            ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x_spot = []
+            o_spot = []
+            return redirect('/')
         choice7 = int(request.form['spot'])
         x_spot.append(choice7)
         ailist.remove(choice7)
@@ -1725,6 +1746,8 @@ def spot8():
 def spot9():
     global w
     global win
+    global x_spot
+    global o_spot
     if 1 in x_spot and 2 in x_spot and 3 in x_spot:
         win = 'You Win!'
         w = 9
@@ -1791,10 +1814,14 @@ def spot9():
         w = 9
         return redirect('/gamestop', code=302)
     if request.method == 'POST':
-        if request.form['spot'] == 'back':
-            return redirect('/')
         global choice9
         global ailist
+        if request.form['spot'] == 'back':
+            ailist = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            x_spot = []
+            o_spot = []
+            return redirect('/')
+        
         choice9 = int(request.form['spot'])
         x_spot.append(choice9)
         ailist.remove(choice9)
